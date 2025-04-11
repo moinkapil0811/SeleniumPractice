@@ -17,7 +17,7 @@ public class PriorityEx {
 
     @Test(priority = 4)
     public  void testCaseP(){
-
+        Assert.assertTrue(false);
         System.out.println("test case p..");
     }
     @Test(priority = 3)
