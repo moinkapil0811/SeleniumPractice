@@ -13,6 +13,7 @@ public class PriorityEx {
     @Test(priority = 2 , enabled = false)
     public  void testCaseB(){
         System.out.println("test case B..");
+        System.out.println("test execute success");
     }
 
     @Test(priority = 4)
